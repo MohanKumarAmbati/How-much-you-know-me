@@ -6,7 +6,7 @@ console.log("|         How well you know Mohan?            |");
 console.log("|_____________________________________________|");
 
 var userName = readlineSync.question("What is your name? ");
-console.log("Hi!, " + userName + "let's see how well you know ME? ");
+console.log("Hi! " + userName + ", let's see how well you know ME? ");
 
 var quiz = [
   {question : "Where did Mohan born? ",
